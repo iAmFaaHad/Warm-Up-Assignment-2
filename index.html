@@ -5,10 +5,232 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda E-Commerce</title>
+    <!-- bootstrap -->
     <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <!-- Css -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- header start -->
+<header>
+<section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="logo.png" alt="" width="50" height=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Shoes">Shoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Backpack">Backpack</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Subscribe">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</section>
+<section class="container bg-pink mt-5 rounded">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="row px-5 py-5  d-flex align-items-center">
+                  <div class="col-lg-7">
+                      <h1>Cool Dude Headphone</h1>
+                      <p>Xoss Nah? Gayee Tel Besii hole kine felo</p>
+                      <h2>430$</h2>
+                      <button class="btn btn-rong">Buy Now</button>
+                  </div>
+                  <div class="col-lg-5">
+                    <img src="banner-images/headphone.png" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <div class="row px-5 py-5 d-flex align-items-center">
+                  <div class="col-lg-7">
+                    <h1>Cool Dude Tv</h1>
+                    <p>Xoss Nah? Gayee Tel Besii hole kine felo</p>
+                    <h2>430$</h2>
+                    <button class="btn btn-rong">
+                        Buy now
+                    </button>
+                  </div>
+                  <div class="col-lg-5">
+                    <img src="banner-images/tv.png" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <div class="row px-5 py-5 d-flex align-items-center ">
+                  <div class="col-lg-7">
+                    <h1>Cool Dude Tv</h1>
+                    <p>Xoss Nah? Gayee Tel Besii hole kine felo</p>
+                    <h2>430$</h2>
+                    <button class="btn btn-rong">
+                        Buy now
+                    </button>
+                  </div>
+                  <div class="col-lg-5">
+                    <img src="banner-images/xbox.png" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+            
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
+</header>
+<main> 
+  <section class="conatiner mt-5">
+    <div class="container overflow-hidden">
+        <div class="row gy-5">
+          <div class="col-lg-4 col-md-6 col-13">
+            <div class="p-3 border bg-warning d-flex align-items-center justify-content-between rounded ">
+                <h3 class="text-white">Watch</h3>
+                <img width="100px" src="categories/watch.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-13">
+            <div class="p-3 border bg-success d-flex align-items-center justify-content-between rounded">
+                <h3 class="text-white">Baacpack</h3>
+                <img  width="100px" src="categories/bag.png" alt="" srcset="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-13">
+            <div class="p-3 border bg-danger d-flex align-items-center justify-content-between rounded">
+                <h2>Shoes</h2>
+                <img width="100px" src="categories/shoes.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="container mt-5" id="Shoes">
+      <h2>
+          Shoes
+      </h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3   g-4">
+        <div class="col">
+          <div class="card  shadow-lg border-0 h-100">
+            <img src="shoes/shoe-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Supply-500</h5>
+              <p class="card-text">Kiniba nah? Nah chai thakiba?</p>
+              <h3>450$</h3>
+            </div>
+            <div class="ms-3">
+              <small class="text-muted"><button class="btn btn-rong">Buy Now</button></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card  shadow-lg border-0 h-100">
+            <img src="shoes/shoe-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Adidas</h5>
+                <p class="card-text">Kiniba nah? Nah chai thakiba?</p>
+                <h3>450$</h3>
+            </div>
+            <div class="ms-3">
+              <small class="text-muted"><div class="btn btn btn-rong">Buy Now</div></small>
+            </div>
+          </div>
+        </div>
+        <div class="col   ">
+          <div class="card shadow-lg  border-0  h-100">
+            <img src="shoes/shoe-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Nike-Red</h5>
+                <p class="card-text">Kiniba nah? Nah chai thakiba?</p>
+                <h3>450$</h3>
+            </div>
+            <div class="ms-3" >
+              <small class="text-muted"><button class="btn btn-rong">Buy Now</button></small>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="container mt-5" id="Backpack">
+      <h2>Backpack</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3  g-4">
+        <div class="col">
+          <div class="card  shadow-lg border-0 h-100">
+            <img src="bags/bag-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">XUXU Bag</h5>
+              <p class="card-text">Kinba naki ? Naki dekhe e thakba?</p>
+              <h3>400$</h3>
+            </div>
+            <div class="ms-3">
+              <small class="text-muted"><button class="btn btn-rong">Buy Now</button></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg border-0 h-100">
+            <img src="bags/bag-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">LUXU Bag</h5>
+                <p class="card-text">Kinba naki ? Naki dekhe e thakba?</p>
+                <h3>400$</h3>
+              </div>
+              <div class="ms-3">
+                <small class="text-muted"><button class="btn btn-rong">Buy Now</button></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg border-0 h-100">
+            <img src="bags/bag-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">MUXU Bag</h5>
+                <p class="card-text">Kinba naki ? Naki dekhe e thakba?</p>
+                <h3>400$</h3>
+              </div>
+              <div class="ms-3">
+                <small class="text-muted"><button class="btn btn-rong">Buy Now</button></small>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section style="height: 300px;" class="container bg-pink mt-5  p-5  d-flex align-items-center justify-content-center" id="Subscribe">
+ <div>
+    <h1> Hey Let's Get In Touch</h1>
+    <p>Get more sales news via mail</p>
+     <input type="email" name="" id="" placeholder="Your Mail Address">
+     <br> <button class="btn btn-rong mt-1">Submit</button>
+ </div>
+  </section>
+</main>
+<footer class="mt-3 d-flex align-items-center  justify-content-center ">
+    <p><small>@2020 via panda</small></p>
+</footer>
+    <!-- JavaScript -->
     <script src="Js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
